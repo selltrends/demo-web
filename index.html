@@ -17,15 +17,87 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/vendor/angular.min.js"></script>
     </head>
-    <body>
+    <body  ng-controller="ContentListCtrl">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div ng-controller="ContentListCtrl">
-          <h1>{{contents.index.name}}</h1>
-        </div>
-        <!-- Add your site or application content here -->
-        <p><i class="fa fa-cog fa-spin"></i> Hello world! This is HTML5 Boilerplate.</p>
+        <header class="container-fluid">
+          <div class="row">
+            <h3>{{contents.index.header}}</h3>
+          </div>
+          <div class="row">
+            <nav>
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">News</a>
+              <a href="#">Contact</a>
+            </nav>
+          </div>
+        </header>
+
+        <section class="container-fluid">
+          <div class="row">
+            <div class="jumbotron">
+              <h1><i class="fa fa-cog fa-spin"></i>  {{contents.index.name}}</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+            </div>
+
+            <!-- Add your site or application content here -->
+            <p>Hello world! This is HTML5 Boilerplate.</p>
+          </div>
+        </section>
+
+
+
+
+        <footer class="container-fluid">
+          <div class="row">
+            <div class="col-xs-6 col-sm-3">
+              <h3>Content A</h3>
+              <ul>
+                <li><a href="#">List A</a></li>
+                <li><a href="#">List B</a></li>
+                <li><a href="#">List C</a></li>
+                <li><a href="#">List D</a></li>
+                <li><a href="#">List E</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+              <h3>Content B</h3>
+              <ul>
+                <li><a href="#">List A</a></li>
+                <li><a href="#">List B</a></li>
+                <li><a href="#">List C</a></li>
+                <li><a href="#">List D</a></li>
+                <li><a href="#">List E</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+              <h3>Content C</h3>
+              <ul>
+                <li><a href="#">List A</a></li>
+                <li><a href="#">List B</a></li>
+                <li><a href="#">List C</a></li>
+                <li><a href="#">List D</a></li>
+                <li><a href="#">List E</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+              <h3>Content D</h3>
+              <ul>
+                <li><a href="#">List A</a></li>
+                <li><a href="#">List B</a></li>
+                <li><a href="#">List C</a></li>
+                <li><a href="#">List D</a></li>
+                <li><a href="#">List E</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12">
+              <h3 class="text-center">{{contents.index.footer}}</h3>
+            </div>
+          </div>
+        </footer>
 
         <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
