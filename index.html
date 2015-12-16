@@ -84,38 +84,15 @@
 
         <footer class="container-fluid">
           <div class="row">
-            <div class="col-xs-6 col-sm-3">
-              <h3>{{contents.index.footer.cola.title}}</h3>
-              <ul>
-                <li ng-repeat="list in contents.index.footer.cola.lists">
-                  <a href="#">{{list}}</a>
+            <div class="col-xs-6 col-sm-3" ng-repeat="col in contents.index.footer.cols">
+              <h3 class="list-group-item-heading"><i class="fa fa-{{col.icon}}"></i> {{col.title}}</h3>
+              <ul class="list-group">
+                <li class="list-group-item" ng-repeat="list in col.lists">
+                  <a href="{{list.url}}"><i class="fa fa-{{list.icon}}"></i> {{list.title}}</a>
                 </li>
               </ul>
             </div>
-            <div class="col-xs-6 col-sm-3">
-              <h3>{{contents.index.footer.colb.title}}</h3>
-              <ul>
-                <li ng-repeat="list in contents.index.footer.colb.lists">
-                  <a href="#">{{list}}</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-xs-6 col-sm-3">
-              <h3>{{contents.index.footer.colc.title}}</h3>
-              <ul>
-                <li ng-repeat="list in contents.index.footer.colc.lists">
-                  <a href="#">{{list}}</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-xs-6 col-sm-3">
-              <h3>{{contents.index.footer.cold.title}}</h3>
-              <ul>
-                <li ng-repeat="list in contents.index.footer.cold.lists">
-                  <a href="#">{{list}}</a>
-                </li>
-              </ul>
-            </div>
+
             <div class="col-xs-12 col-sm-12">
               <hr>
               <h3 class="text-center">{{contents.index.footer.copyright}} -- {{contents.index.footer.contact}}</h3>
