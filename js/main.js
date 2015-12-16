@@ -3,7 +3,10 @@ jQuery(document).ready(function(){
     $(this).css("background-color", "pink");
     }, function(){
     $(this).css("background-color", "transparent");
-});
+  });
+  $('.carousel').carousel({
+  interval: 5000
+})
 });
 
 var contentApp = angular.module('contentApp',[]);
