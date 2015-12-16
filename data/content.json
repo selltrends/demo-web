@@ -14,7 +14,7 @@
             {
               "id":"ida",
               "title":"汽车违章查询",
-              "icon":"car",
+              "icon":"search-plus",
               "url":"/car"
             },
             {
@@ -32,7 +32,7 @@
             {
               "id":"idd",
               "title":"绿标查询",
-              "icon":"train",
+              "icon":"leaf",
               "url":"/car"
             },
             {
@@ -51,31 +51,31 @@
             {
               "id":"ida",
               "title":"保险金融",
-              "icon":"motorcycle",
+              "icon":"industry",
               "url":"/car"
             },
             {
               "id":"idb",
               "title":"代驾服务",
-              "icon":"motorcycle",
+              "icon":"life-saver",
               "url":"/car"
             },
             {
               "id":"idc",
               "title":"汽车租赁",
-              "icon":"motorcycle",
+              "icon":"phone-square",
               "url":"/car"
             },
             {
               "id":"idd",
               "title":"违章代办",
-              "icon":"motorcycle",
+              "icon":"tags",
               "url":"/car"
             },
             {
               "id":"ide",
               "title":"寻物启事",
-              "icon":"motorcycle",
+              "icon":"sticky-note",
               "url":"/car"
             }
           ]
@@ -94,25 +94,25 @@
             {
               "id":"idb",
               "title":"后车市服务",
-              "icon":"motorcycle",
+              "icon":"shield",
               "url":"/car"
             },
             {
               "id":"idc",
               "title":"自驾游活动",
-              "icon":"motorcycle",
+              "icon":"user-plus",
               "url":"/car"
             },
             {
               "id":"idd",
               "title":"热点资讯",
-              "icon":"motorcycle",
+              "icon":"info-circle",
               "url":"/car"
             },
             {
               "id":"ide",
               "title":"敏锐观察",
-              "icon":"motorcycle",
+              "icon":"commenting",
               "url":"/car"
             }
           ]
@@ -125,31 +125,31 @@
             {
               "id":"ida",
               "title":"商务合作咨询",
-              "icon":"motorcycle",
+              "icon":"coffee",
               "url":"/car"
             },
             {
               "id":"idb",
               "title":"特约服务点",
-              "icon":"motorcycle",
+              "icon":"book",
               "url":"/car"
             },
             {
               "id":"idc",
               "title":"保险合作",
-              "icon":"motorcycle",
+              "icon":"calendar",
               "url":"/car"
             },
             {
               "id":"idd",
               "title":"金融服务",
-              "icon":"motorcycle",
+              "icon":"bank",
               "url":"/car"
             },
             {
               "id":"ide",
               "title":"租车类",
-              "icon":"motorcycle",
+              "icon":"bookmark",
               "url":"/car"
             }
           ]
