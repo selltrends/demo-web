@@ -1,30 +1,30 @@
-[
-  {
-    "id":"index",
+{
+  "index":{
+    "name":"Index page",
     "title":"This is title",
     "snippet": "Are you ready for everything life throws your way?",
     "header":"This is header",
     "footer":"This is footer"
   },
-  {
-    "id":"about",
+  "about":{
+    "name":"About page",
     "title":"This is title",
     "snippet": "Are you ready for everything life throws your way?",
     "header":"This is header",
     "footer":"This is footer"
   },
-  {
-    "id":"news",
-    "title":"This is news",
+  "news":{
+    "name":"News page",
+    "title":"This is title",
     "snippet": "Are you ready for everything life throws your way?",
     "header":"This is header",
     "footer":"This is footer"
   },
-  {
-    "id":"contact",
-    "title":"This is contact",
+  "contact":{
+    "name":"Contact page",
+    "title":"This is title",
     "snippet": "Are you ready for everything life throws your way?",
     "header":"This is header",
     "footer":"This is footer"
   }
-]
+}
