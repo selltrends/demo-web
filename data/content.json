@@ -88,7 +88,7 @@
             {
               "id":"ida",
               "title":"新车上市",
-              "icon":"motorcycle",
+              "icon":"car",
               "url":"/car"
             },
             {
@@ -157,7 +157,7 @@
       ],
       "contact":"联系方式",
       "icon":"fax",
-      "copyright":"知道信息版权所有"
+      "copyright":"© 广西知道信息 版权所有"
     }
   },
   "about":{

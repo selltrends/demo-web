@@ -101,9 +101,23 @@ nav {
 footer{
   background-color: #333D47;
   color:#fff;
-  padding: 20px;
+  padding: 30px 20px 0;
 }
 
+
+footer a:link {
+    color: green;
+}
+footer a:visited {
+    color: green;
+}
+footer a:hover {
+    color: orange;
+    text-decoration: none;
+}
+footer a:active {
+    color: blue;
+}
 
 
 
