@@ -26,11 +26,42 @@
             <h3>{{contents.index.header}}</h3>
           </div>
           <div class="row">
-            <nav>
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">News</a>
-              <a href="#">Contact</a>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+<a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">查询服务 <span class="caret"></span></a></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">违章查询</a></li>
+                        <li><a href="#">拖车查询</a></li>
+                        <li><a href="#">绿标查询</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">车管所</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">驾驶证扣分查询</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">资讯中心</a></li>
+                    <li><a href="#">联系我们</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-check-square"></i> 登陆</a></li>
+                    <li><button type="button" class="btn btn-default navbar-btn"><a href="#"><i class="fa fa-cog"></i> 注册</a></button></li>
+                  </ul>
+                </div>
+              </div>
             </nav>
           </div>
         </header>
