@@ -1,7 +1,9 @@
 jQuery(document).ready(function(){
-  $("p").click(function(){
-  $(this).css("background-color","yellow");
-  });
+  $("h1,h3,p").hover(function(){
+    $(this).css("background-color", "pink");
+    }, function(){
+    $(this).css("background-color", "transparent");
+});
 });
 
 var contentApp = angular.module('contentApp',[]);

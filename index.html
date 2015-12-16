@@ -54,47 +54,40 @@
         <footer class="container-fluid">
           <div class="row">
             <div class="col-xs-6 col-sm-3">
-              <h3>Content A</h3>
+              <h3>{{contents.index.footer.cola.title}}</h3>
               <ul>
-                <li><a href="#">List A</a></li>
-                <li><a href="#">List B</a></li>
-                <li><a href="#">List C</a></li>
-                <li><a href="#">List D</a></li>
-                <li><a href="#">List E</a></li>
+                <li ng-repeat="list in contents.index.footer.cola.lists">
+                  <a href="#">{{list}}</a>
+                </li>
               </ul>
             </div>
             <div class="col-xs-6 col-sm-3">
-              <h3>Content B</h3>
+              <h3>{{contents.index.footer.colb.title}}</h3>
               <ul>
-                <li><a href="#">List A</a></li>
-                <li><a href="#">List B</a></li>
-                <li><a href="#">List C</a></li>
-                <li><a href="#">List D</a></li>
-                <li><a href="#">List E</a></li>
+                <li ng-repeat="list in contents.index.footer.colb.lists">
+                  <a href="#">{{list}}</a>
+                </li>
               </ul>
             </div>
             <div class="col-xs-6 col-sm-3">
-              <h3>Content C</h3>
+              <h3>{{contents.index.footer.colc.title}}</h3>
               <ul>
-                <li><a href="#">List A</a></li>
-                <li><a href="#">List B</a></li>
-                <li><a href="#">List C</a></li>
-                <li><a href="#">List D</a></li>
-                <li><a href="#">List E</a></li>
+                <li ng-repeat="list in contents.index.footer.colc.lists">
+                  <a href="#">{{list}}</a>
+                </li>
               </ul>
             </div>
             <div class="col-xs-6 col-sm-3">
-              <h3>Content D</h3>
+              <h3>{{contents.index.footer.cold.title}}</h3>
               <ul>
-                <li><a href="#">List A</a></li>
-                <li><a href="#">List B</a></li>
-                <li><a href="#">List C</a></li>
-                <li><a href="#">List D</a></li>
-                <li><a href="#">List E</a></li>
+                <li ng-repeat="list in contents.index.footer.cold.lists">
+                  <a href="#">{{list}}</a>
+                </li>
               </ul>
             </div>
             <div class="col-xs-12 col-sm-12">
-              <h3 class="text-center">{{contents.index.footer}}</h3>
+              <hr>
+              <h3 class="text-center">{{contents.index.footer.copyright}} -- {{contents.index.footer.contact}}</h3>
             </div>
           </div>
         </footer>

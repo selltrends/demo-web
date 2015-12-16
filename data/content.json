@@ -1,27 +1,46 @@
 {
   "index":{
-    "name":"Index page",
+    "name":"首页 － 车知道",
     "title":"This is title",
     "snippet": "Are you ready for everything life throws your way?",
     "header":"This is header",
-    "footer":"This is footer"
+    "footer":{
+      "cola":{
+        "title":"栏目一",
+        "lists":["List A","List B","List C","List D","List E"]
+      },
+      "colb":{
+        "title":"栏目二",
+        "lists":["List A","List B","List C","List D","List E"]
+      },
+      "colc":{
+        "title":"栏目三",
+        "lists":["List A","List B","List C","List D","List E"]
+      },
+      "cold":{
+        "title":"栏目四",
+        "lists":["List A","List B","List C","List D","List E"]
+      },
+      "contact":"联系方式",
+      "copyright":"知道信息版权所有"
+    }
   },
   "about":{
-    "name":"About page",
+    "name":"关于我们",
     "title":"This is title",
     "snippet": "Are you ready for everything life throws your way?",
     "header":"This is header",
     "footer":"This is footer"
   },
   "news":{
-    "name":"News page",
+    "name":"资讯中心",
     "title":"This is title",
     "snippet": "Are you ready for everything life throws your way?",
     "header":"This is header",
     "footer":"This is footer"
   },
   "contact":{
-    "name":"Contact page",
+    "name":"联系我们",
     "title":"This is title",
     "snippet": "Are you ready for everything life throws your way?",
     "header":"This is header",
