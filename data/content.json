@@ -1,0 +1,30 @@
+[
+  {
+    "id":"index",
+    "title":"This is title",
+    "snippet": "Are you ready for everything life throws your way?",
+    "header":"This is header",
+    "footer":"This is footer"
+  },
+  {
+    "id":"about",
+    "title":"This is title",
+    "snippet": "Are you ready for everything life throws your way?",
+    "header":"This is header",
+    "footer":"This is footer"
+  },
+  {
+    "id":"news",
+    "title":"This is news",
+    "snippet": "Are you ready for everything life throws your way?",
+    "header":"This is header",
+    "footer":"This is footer"
+  },
+  {
+    "id":"contact",
+    "title":"This is contact",
+    "snippet": "Are you ready for everything life throws your way?",
+    "header":"This is header",
+    "footer":"This is footer"
+  }
+]
