@@ -149,6 +149,16 @@ nav {
     border-color: #057d8e;
     opacity: 0.9;
 }
+.mkt {
+    border: 10px solid transparent;
+    width: 60%;
+    height: 60%;
+    opacity: 0.7;
+}
+.mkt:hover {
+    border-color: #a8079d;
+    opacity: 0.9;
+}
 
 footer{
   background-color: #5f656f;
