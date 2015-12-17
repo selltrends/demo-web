@@ -104,11 +104,11 @@ nav {
   border-color: #5cb85c;
 }
 #car-check{
-  background-color: #2f912f;
+  background-color: #337ab7;
   color:#fff;
 }
 #car-service{
-  background-color: #1d0439;
+  background-color: #5bc0de;
   color:#fff;
 }
 #car-more{
@@ -160,6 +160,15 @@ nav {
     opacity: 0.9;
 }
 
+
+.feature span.glyphicon{
+  font-size: 90px;
+  text-shadow: 4px 3px 0px #333, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  color:#c0c0c0;
+}
+.feature span.glyphicon:hover{
+  color:#097ca1;
+}
 footer{
   background-color: #5f656f;
   color: rgba(255,255,255,0.5);
