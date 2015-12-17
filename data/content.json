@@ -69,7 +69,7 @@
     "cols":[
       {
         "id":"check",
-        "title":"综合查询类",
+        "title":"综合查询",
         "icon":"calendar-check-o",
         "lists":[
           {
@@ -106,7 +106,7 @@
       },
       {
         "id":"services",
-        "title":"便民服务类",
+        "title":"便民服务",
         "icon":"gift",
         "lists":[
           {
@@ -143,7 +143,7 @@
       },
       {
         "info":"info",
-        "title":"资讯中心类",
+        "title":"资讯中心",
         "icon":"feed",
         "lists":[
           {
@@ -180,7 +180,7 @@
       },
       {
         "id":"contact",
-        "title":"合作洽谈类",
+        "title":" 合作洽谈",
         "icon":"group",
         "lists":[
           {
