@@ -2,7 +2,42 @@
   "index":{
     "name":"首页 － 车知道",
     "title":"This is title",
-    "snippet": "Are you ready for everything life throws your way?"
+    "snippet": "Are you ready for everything life throws your way?",
+    "carousels":[
+      {
+        "class":"active",
+        "header":"查询服务",
+        "lead":"车知道与南宁市交警中队合作，联袂推出快捷查询系统，免费查询，为民减优",
+        "icon":"cog fa-spin",
+        "img":"",
+        "button":{
+          "name":"Sign up today",
+          "class":"success"
+        }
+      },
+      {
+        "class":"",
+        "header":"便民服务",
+        "lead":"利用互联网大数据，挖掘流行车市信息，为您出行提供更便捷优质服务",
+        "icon":"refresh fa-spin",
+        "img":"",
+        "button":{
+          "name":"Let's Go",
+          "class":"primary"
+        }
+      },
+      {
+        "class":"",
+        "header":"敬请期待更多",
+        "lead":"车知道，您的爱车的专业助手，时刻为您解决难题",
+        "icon":"spinner fa-pulse",
+        "img":"",
+        "button":{
+          "name":"Check it Now!",
+          "class":"danger"
+        }
+      }
+    ]
   },
   "about":{
     "name":"关于我们",
@@ -21,6 +56,11 @@
   },
   "header":{
     "title":"车知道"
+  },
+  "nav":{
+    "brand":"车知道",
+    "class":"default navbar-fixed-top",
+    "menu":""
   },
   "footer":{
     "cols":[

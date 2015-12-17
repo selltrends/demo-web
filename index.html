@@ -26,7 +26,7 @@
             <h3>{{contents.header.title}}</h3>
           </div>
           <div class="row">
-            <nav class="navbar navbar-inverse navbar-fixed-top">
+            <nav class="navbar navbar-{{contents.nav.class}}">
               <div class="container-fluid">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -35,7 +35,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-<a class="navbar-brand" href="#">Brand</a>
+<a class="navbar-brand" href="#">{{contents.nav.brand}}</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
@@ -68,28 +68,18 @@
 
         <section class="container-fluid">
           <div class="row">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div id="carousel-chezhidao" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-chezhidao" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-chezhdiao" data-slide-to="1"></li>
+                <li data-target="#carousel-chezhidao" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner" role="listbox">
-                <div class="jumbotron item active">
-                  <h1><i class="fa fa-cog fa-spin"></i>  查询服务</h1>
-                  <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-                </div>
-                <div class="jumbotron item">
-                  <h1><i class="fa fa-refresh fa-spin"></i>  便民服务</h1>
-                  <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-                </div>
-                <div class="jumbotron item">
-                  <h1><i class="fa fa-spinner fa-pulse"></i>  敬请期待更多</h1>
-                  <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+                <div class="jumbotron item {{carousel.class}}" ng-repeat="carousel in contents.index.carousels">
+                  <h1><i class="fa fa-{{carousel.icon}}"></i>  {{carousel.header}}</h1>
+                  <p class="lead">{{carousel.lead}}</p>
+                  <p><a class="btn btn-lg btn-{{carousel.button.class}}" href="#" role="button">{{carousel.button.name}}</a></p>
                 </div>
 
               </div>
