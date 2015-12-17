@@ -5,10 +5,11 @@
     "snippet": "Are you ready for everything life throws your way?",
     "carousels":[
       {
+        "id":"car-check",
         "class":"active",
         "header":"查询服务",
         "lead":"车知道与南宁市交警中队合作，联袂推出快捷查询系统，免费查询，为民减优",
-        "icon":"cog fa-spin",
+        "icon":"flag-o",
         "img":"",
         "button":{
           "name":"Sign up today",
@@ -16,10 +17,11 @@
         }
       },
       {
+        "id":"car-service",
         "class":"",
         "header":"便民服务",
         "lead":"利用互联网大数据，挖掘流行车市信息，为您出行提供更便捷优质服务",
-        "icon":"refresh fa-spin",
+        "icon":"magic",
         "img":"",
         "button":{
           "name":"Let's Go",
@@ -27,6 +29,7 @@
         }
       },
       {
+        "id":"car-more",
         "class":"",
         "header":"敬请期待更多",
         "lead":"车知道，您的爱车的专业助手，时刻为您解决难题",

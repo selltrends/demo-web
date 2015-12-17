@@ -76,7 +76,7 @@
                 <li data-target="#carousel-chezhidao" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner" role="listbox">
-                <div class="jumbotron item {{carousel.class}}" ng-repeat="carousel in contents.index.carousels">
+                <div class="jumbotron item {{carousel.class}}" id="{{carousel.id}}" ng-repeat="carousel in contents.index.carousels">
                   <h1><i class="fa fa-{{carousel.icon}}"></i>  {{carousel.header}}</h1>
                   <p class="lead">{{carousel.lead}}</p>
                   <p><a class="btn btn-lg btn-{{carousel.button.class}}" href="#" role="button">{{carousel.button.name}}</a></p>
