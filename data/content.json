@@ -7,8 +7,8 @@
       {
         "id":"car-check",
         "class":"active",
-        "header":"查询服务",
-        "lead":"车知道与南宁市交警中队合作，联袂推出快捷查询系统，免费查询，为民减优",
+        "header":"车辆违法查询",
+        "lead":"车知道与南宁市交警中队合作，联袂推出快捷查询系统，免费查询，为民减忧",
         "icon":"flag-o",
         "img":"img/logo.png",
         "button":{
@@ -19,7 +19,7 @@
       {
         "id":"car-service",
         "class":"",
-        "header":"便民服务",
+        "header":"拖车查询",
         "lead":"利用互联网大数据，挖掘流行车市信息，为您出行提供更便捷优质服务",
         "icon":"magic",
         "img":"img/logo.png",
@@ -31,9 +31,9 @@
       {
         "id":"car-more",
         "class":"",
-        "header":"敬请期待更多",
-        "lead":"车知道，您的爱车的专业助手，时刻为您解决难题",
-        "icon":"spinner fa-pulse",
+        "header":"绿标查询",
+        "lead":"车知道，您的爱车的专业助手，时刻为您解决难题, 点击即刻查询，为你解忧",
+        "icon":"leaf",
         "img":"img/logo.png",
         "button":{
           "name":"Check it Now!",

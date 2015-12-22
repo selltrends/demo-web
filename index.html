@@ -77,9 +77,41 @@
               </ol>
               <div class="carousel-inner" role="listbox">
                 <div class="jumbotron item {{carousel.class}}" id="{{carousel.id}}" ng-repeat="carousel in contents.index.carousels">
-                  <h1><img ng-src="{{carousel.img}}" class="img-circle czd" alt="">  {{carousel.header}} <i class="fa fa-{{carousel.icon}}"></i></h1>
-                  <p class="lead">{{carousel.lead}}</p>
-                  <p><a class="btn btn-lg btn-{{carousel.button.class}}" href="#" role="button">{{carousel.button.name}}</a></p>
+
+                  <div class="row text-center">
+                    <div class="col-md-8 col-md-push-2">
+                      <h1><i class="fa fa-{{carousel.icon}}"></i> {{carousel.header}}</h1>
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-8 col-md-push-2">
+                      <p class="lead">{{carousel.lead}}</p>
+                    </div>
+                    <div class="col-md-2">
+                    
+                    </div>
+                    <div class="col-md-8 col-md-push-2">
+                      <form class="form-horizontal">
+                        <div class="form-group has-success has-feedback">
+                          <label class="control-label col-sm-3" for="inputGroupSuccess2">请输入车牌号</label>
+                          <div class="col-sm-9">
+                            <div class="input-group">
+                              <span class="input-group-addon">桂A</span>
+                              <input type="text" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status">
+                            </div>
+                            <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+                            <span id="inputGroupSuccess2Status" class="sr-only">(success)</span>
+                            <p class="text-left"><a class="btn btn-lg btn-{{carousel.button.class}}" href="#" role="button">{{carousel.button.name}}</a></p>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                  </div>
+
                 </div>
               </div>
               <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
