@@ -124,7 +124,7 @@
   },
   "nav":{
     "brand":"车知道",
-    "class":"default navbar-fixed-top",
+    "class":"inverse navbar-fixed-top",
     "menu":""
   },
   "footer":{
