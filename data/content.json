@@ -157,12 +157,6 @@
             "title":"绿标查询",
             "icon":"leaf",
             "url":"/car"
-          },
-          {
-            "id":"ide",
-            "title":"电摩查询",
-            "icon":"motorcycle",
-            "url":"/car"
           }
         ]
       },
@@ -187,12 +181,6 @@
             "id":"idc",
             "title":"汽车租赁",
             "icon":"phone-square",
-            "url":"/car"
-          },
-          {
-            "id":"idd",
-            "title":"违章代办",
-            "icon":"tags",
             "url":"/car"
           },
           {
@@ -227,12 +215,6 @@
             "url":"/car"
           },
           {
-            "id":"idd",
-            "title":"热点资讯",
-            "icon":"info-circle",
-            "url":"/car"
-          },
-          {
             "id":"ide",
             "title":"敏锐观察",
             "icon":"commenting",
@@ -261,12 +243,6 @@
             "id":"idc",
             "title":"保险合作",
             "icon":"calendar",
-            "url":"/car"
-          },
-          {
-            "id":"idd",
-            "title":"金融服务",
-            "icon":"bank",
             "url":"/car"
           },
           {
