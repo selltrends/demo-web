@@ -98,11 +98,17 @@
                           <div class="col-sm-9">
                             <div class="input-group">
                               <span class="input-group-addon">桂A</span>
-                              <input type="text" class="form-control" id="hphm" name= "hphm" ng-model="hphm" placeholder="点击输入车牌号" required ng-pattern="/^[\u4E00-\u9FA5]?[a-zA-Z0-9]{6}$/">
+                              <input type="text" class="form-control" id="hphm" name= "hphm" ng-minlength="5" ng-maxlength="7" ng-model="hphm" value="桂A" placeholder="点击输入车牌号" required ng-pattern="/(^[\u4E00-\u9FA5]?[a-zA-Z0-9]{6}/">
                             </div>
-                            <div class="invalid" style="color:red;background-color:white" ng-show="hpForm.hphm.$dirty && hpForm.hphm.$invalid">
+                            <div class="invalid well" ng-show="hpForm.hphm.$dirty && hpForm.hphm.$invalid">
                               <span ng-show="hpForm.hphm.$error.pattern">
                                 <strong>请输入有效车牌号码</strong>
+                              </span>
+                              <span ng-show="hpForm.hphm.$error.minlength">
+                                -- 无效车牌号，太短！
+                              </span>
+                              <span ng-show="hpForm.hphm.$error.maxlength">
+                                <strong>-- 无效车牌号，太长！ </strong>
                               </span>
                               <span ng-show="hpForm.hphm.$error.required">
                                 <strong>请输入车牌号码</strong>

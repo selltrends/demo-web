@@ -164,6 +164,8 @@ nav {
   }
 }
 
+div.invalid { color: red; font-weight: bold; }
+
 .download{
 
 }
