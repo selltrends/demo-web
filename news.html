@@ -127,28 +127,32 @@
             <div class="container-fluid">
               <h2 class="text-center">车知道 <small>新闻</small></h2>
               <div class="row">
-                <div class="col-sm-4 col-sm-offset-1">
-                  <p>联系我们24小时内给反馈.</p>
-                  <p><span class="glyphicon glyphicon-map-marker"></span> 南宁, 广西</p>
-                  <p><span class="glyphicon glyphicon-phone"></span> +077188888</p>
-                  <p><span class="glyphicon glyphicon-envelope"></span> ceo@www.gx.cn</p>
+                <div class="col-md-3 col-md-offset-1 well">
+                  <h3>导航</h3>
+                    <ul class="nav nav-pills nav-stacked">
+                      <li><a href="#">A</a></li>
+                      <li><a href="#">B</a></li>
+                      <li><a href="#">C</a></li>
+                      <li><a href="#">D</a></li>
+                      <li><a href="#">E</a></li>
+                    </ul>
                 </div>
-                <div class="col-sm-6">
-                  <div class="row">
-                    <div class="col-sm-6 form-group">
-                      <input class="form-control" id="name" name="name" placeholder="姓名" type="text" required>
+                <div class="col-md-7">
+
+                  <div class="row well" ng-repeat="item in contents.news.posts">
+                    <div class="col-xs-3 col-md-4 text-center">
+                      <i class="fa fa-{{item.icon}} fa-5x" style="color:{{item.color}};"></i>
                     </div>
-                    <div class="col-sm-6 form-group">
-                      <input class="form-control" id="email" name="email" placeholder="联系邮件" type="email" required>
+                    <div class="col-xs-9 col-md-8">
+                      <h3><a href="news/{{item.id}}">{{item.title}}</a></h3>
+                      <div>
+                        <a href="news/{{item.id}}">{{item.snippet}}</a>
+                      </div>
                     </div>
                   </div>
-                  <textarea class="form-control" id="comments" name="comments" placeholder="留言内容" rows="5"></textarea><br>
-                  <div class="row">
-                    <div class="col-sm-12 form-group">
-                      <button class="btn btn-default pull-right" type="submit">发送</button>
-                    </div>
-                  </div>
+
                 </div>
+
               </div>
             </div>
         </section>
