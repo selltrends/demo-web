@@ -92,17 +92,29 @@
 
                     </div>
                     <div class="col-md-8 col-md-push-2">
-                      <form class="form-horizontal">
-                        <div class="form-group has-success has-feedback">
-                          <label class="control-label col-sm-3" for="inputGroupSuccess2">请输入车牌号</label>
+                      <form class="form-horizontal" ng-controller="validateCtrl" name="hpForm" novalidate>
+                        <div class="form-group">
+                          <label class="control-label col-sm-3">请输入车牌号</label>
                           <div class="col-sm-9">
                             <div class="input-group">
                               <span class="input-group-addon">桂A</span>
-                              <input type="text" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status">
+                              <input type="text" class="form-control" id="hphm" name= "hphm" ng-minlength="5" ng-maxlength="7" ng-model="hphm" value="桂A" placeholder="点击输入车牌号" required ng-pattern="/(^[\u4E00-\u9FA5]?[a-zA-Z0-9]{6}/">
                             </div>
-                            <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
-                            <span id="inputGroupSuccess2Status" class="sr-only">(success)</span>
-                            <p class="text-left"><a class="btn btn-lg btn-{{carousel.button.class}}" href="#" role="button">{{carousel.button.name}}</a></p>
+                            <div class="invalid well" ng-show="hpForm.hphm.$dirty && hpForm.hphm.$invalid">
+                              <span ng-show="hpForm.hphm.$error.pattern">
+                                <strong>请输入有效车牌号码</strong>
+                              </span>
+                              <span ng-show="hpForm.hphm.$error.minlength">
+                                -- 无效车牌号，太短！
+                              </span>
+                              <span ng-show="hpForm.hphm.$error.maxlength">
+                                <strong>-- 无效车牌号，太长！ </strong>
+                              </span>
+                              <span ng-show="hpForm.hphm.$error.required">
+                                <strong>请输入车牌号码</strong>
+                              </span>
+                            </div>
+                            <p class="text-left"><a class="btn btn-lg btn-{{carousel.button.class}}" href="about.html" action="about.html" role="button" ng-disabled="hpForm.$invalid || hpForm.$pristine">{{carousel.button.name}}</a></p>
                           </div>
                         </div>
                       </form>
