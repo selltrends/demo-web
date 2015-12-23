@@ -15,4 +15,9 @@ contentApp.controller('ContentListCtrl',function($scope, $http){
   $http.get('data/content.json').success(function(data){
     $scope.contents = data;
   })
-})
+});
+
+contentApp.controller('validateCtrl', function($scope) {
+    $scope.user = 'John Doe';
+    $scope.email = 'john.doe@gmail.com';
+});
