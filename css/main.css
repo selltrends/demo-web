@@ -167,9 +167,22 @@ nav {
 div.invalid { color: red; font-weight: bold; }
 
 .download{
-
+  background: url(../../img/material.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
+.dd{
+    background: url(../../img/mobile.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+h1.tt {
+  color:white;
+  font-size: 58px;
+  margin-left: 2.5em;
+}
 .czd {
     border: 10px solid transparent;
     width: 20%;
