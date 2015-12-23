@@ -50,7 +50,69 @@
   "news":{
     "name":"资讯中心",
     "title":"This is title",
-    "snippet": "Are you ready for everything life throws your way?"
+    "snippet": "Are you ready for everything life throws your way?",
+    "posts":[
+      {
+        "id": "discover-inc",
+        "title": "广西知道信息科技",
+        "icon": "legal",
+        "color": "#9ACD32",
+        "spippet": "隶属广西知道控股集团，以最权威、最便捷、最准确、最全面、最安全为宗旨，致力于服务广大车友的应用",
+        "content":{
+          "title":"广西知道信息科技",
+          "content":"隶属广西知道控股集团，以最权威、最便捷、最准确、最全面、最安全为宗旨，致力于服务广大车友的应用",
+          "images":[
+            "images/chezhidao.png",
+            "images/logo.png"
+          ]
+        }
+      },
+      {
+        "id": "discover-bank",
+        "title": "工商银行南宁支行",
+        "icon": "globe",
+        "color": "color:#2E8B57",
+        "spippet": "工商银行南宁支行与知道集团达成战略投资意向，互联网金融为广大车主提供更便捷优惠的服务",
+        "content":{
+          "title":"工商银行南宁支行",
+          "content":"工商银行南宁支行与知道集团达成战略投资意向，互联网金融为广大车主提供更便捷优惠的服务",
+          "images":[
+            "images/chezhidao.png",
+            "images/logo.png"
+          ]
+        }
+      },
+      {
+        "id": "discover-car",
+        "title": "南宁汽车租赁",
+        "icon": "gamepad",
+        "color": "#5F9EA0",
+        "snippet": "知道投资决定往南宁汽车租赁市场发力，年底前占据南宁租赁市场的五成以上",
+        "content":{
+          "title":"南宁汽车租赁",
+          "content":"南宁汽车租赁南宁汽车租赁南宁汽车租赁南宁汽车租赁南宁汽车租赁",
+          "images":[
+            "images/chezhidao.png",
+            "images/logo.png"
+          ]
+        }
+      },
+      {
+        "id": "discover-business",
+        "title": "违章代办",
+        "icon": "fax",
+        "color": "#F08080",
+        "snippet": "知道集团全面为为违章车主免去后顾之忧，只要一个电话，我们就能及时的办理违章代办认为",
+        "content":{
+          "title":"违章代办",
+          "content":"违章代办违章代办违章代办",
+          "images":[
+            "images/chezhidao.png",
+            "images/logo.png"
+          ]
+        }
+      }
+    ]
   },
   "contact":{
     "name":"联系我们",
